@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://caption"
+        class="com.company.demo.web.screens.maintenance.MaintenanceConfigWindow"
+        messagesPack="com.company.demo.web.screens.maintenance">
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="spacer"
+            spacing="true">
+        <textArea id="alertTextArea"
+                  caption="Global alert text"
+                  width="400px"
+                  rows="3"/>
+
+        <hbox spacing="true">
+            <button caption="Apply"
+                    icon="icons/ok.png"
+                    stylename="primary"
+                    invoke="apply"/>
+            <button caption="Close"
+                    icon="icons/cancel.png"
+                    invoke="close"/>
+        </hbox>
+
+        <label id="spacer"/>
+    </layout>
+</window>

@@ -1,0 +1,12 @@
+/* Define your theme modifications inside next mixin */
+@mixin com_company_demo-halo-ext {
+  .global-alert {
+    background: bisque;
+    font-weight: bold;
+    line-height: 40px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-overflow: ellipsis;
+  }
+}
